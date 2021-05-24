@@ -9,7 +9,7 @@ This free software is used by software agencies in Buenos Aires, Argentina.
 ### How to use
 - Minimun requirements: python3 installed. 
 - Go to the RamBotonizer path.
-- Run: python3 RamBotonizer.py
-- Possible args:
+- Possible program args:
 	- --password : password to access the jupyter notebooks.
-	- --short : if short it will only show path and ram usage, otherwise it will show the full jupyter notebook info.
+	- --short : if true it will only show path and ram usage, otherwise it will show the full jupyter notebook info.
+- Run: python3 RamBotonizer.py [--password PASSWORD] [--short true/false]
